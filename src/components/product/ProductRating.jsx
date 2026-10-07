@@ -1,0 +1,1 @@
+import{Star}from'lucide-react';export default function ProductRating({rating=4.5,reviews=0}){return <div className="flex items-center gap-1.5 text-xs"><Star size={14} className="fill-yellow-400 text-yellow-400"/><span className="font-semibold">{Number(rating).toFixed(1)}</span><span className="text-slate-500">({reviews})</span></div>}

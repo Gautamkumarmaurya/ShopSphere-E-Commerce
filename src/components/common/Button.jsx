@@ -1,0 +1,1 @@
+export default function Button({children,variant='primary',className='',...p}){return <button className={`${variant==='secondary'?'btn-secondary':'btn-primary'} ${className}`} {...p}>{children}</button>}

@@ -1,0 +1,1 @@
+export default function ProductImage({src,alt,className=''}){return <div className={`overflow-hidden bg-white/[.03] ${className}`}><img src={src} alt={alt} loading="lazy" className="h-full w-full object-contain transition duration-500 group-hover:scale-105"/></div>}
